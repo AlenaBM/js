@@ -1,0 +1,10 @@
+1. "use strict"; - данная строка в js файле нужна для того, чтобы показать компьютеру, что мы пишем код, ориентируясь на современный режим языка.
+2. We need always to convert symbols into string type by "toString". 
+3. Object.assign can see symbols in object.
+4. Symbol.for(key) - you should call this if you want to read some symbol from some registry and to create global symbol.
+5. Symbol.keyFor(sym) - returns name of symbol. (This method doesn't work for non-global symbols)
+6. Description - can put the description/name of non-global symbols
+7. Object.getOwnPropertySymbols(obj) allows to get all all properties of an object with key symbols
+8. Reflect.ownKeys(obj) - returns all object keys, including character keys.
+9. Any information, what we get from user, has type - string!
+10. If we write before 'promt' sign '+', we will get type of data - number.
