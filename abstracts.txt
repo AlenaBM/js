@@ -8,3 +8,4 @@
 8. Reflect.ownKeys(obj) - returns all object keys, including character keys.
 9. Any information, what we get from user, has type - string!
 10. If we write before 'promt' sign '+', we will get type of data - number.
+11. unary operator - transform srting to a nummber and reverse. You should write +before string: (+"5") - and programm will read "5" as a number.
